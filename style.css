@@ -27,3 +27,30 @@ main{
     color: greenyellow;
     margin-bottom: 1rem;
 }
+
+/* seletor pelo atributo */
+
+input [type="passaword"]{
+    font-size: 3rem;
+}
+/* seletor por descedentes */
+.login-form input{
+    font-size: 2rem;
+    color: blueviolet;
+
+}
+
+/* seletor de filhos direitos */
+
+.login-form > input{
+    color: coral;
+    width: 10rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2){
+    border: 2px solid blue;
+}
+
+
+
