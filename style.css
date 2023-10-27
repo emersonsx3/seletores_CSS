@@ -1,0 +1,29 @@
+/* seletor global = seleciona todos os elementos da pagina  */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* seletor pela tag */
+p{
+    color: royalblue
+}
+
+main{
+    margin-top: 1rem;
+}
+
+/* seletor pela classe */
+
+.paragrafo{
+    border: 1px solid rebeccapurple;
+    color: brown;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+
+#titulo{
+    color: greenyellow;
+    margin-bottom: 1rem;
+}
